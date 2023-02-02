@@ -19,6 +19,45 @@ html{
     scroll-behavior: smooth ;
     scroll-padding-top: 6rem;
 }
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--green);
+   
+}
+
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+.home .content p{
+    font-size: 2.5rem;
+    color:#999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background:rgb(82, 203, 42);
+}
 
 header{
     position: fixed;
