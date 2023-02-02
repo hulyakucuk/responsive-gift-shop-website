@@ -135,6 +135,13 @@ header .bar{
     header{
         padding: 2rem;  
     }
+      
+    section{
+        padding: 2rem;  
+    }
+    .home{
+        background-position: left;
+    }
 
 }
 @media (max-width:768px){
@@ -158,6 +165,10 @@ header .bar{
         border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
     }
+    .home .content h3{
+        font-size: 5rem;
+    }
+    
 }
 @media (max-width:450){
     html{
