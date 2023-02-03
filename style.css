@@ -55,7 +55,6 @@ section{
 }
 
 .about .row .video-container{
-
     flex: 1 1 40rem;
     position: relative;
 }
@@ -105,6 +104,39 @@ section{
     background:rgb(82, 203, 42);
 }
 
+.icons-container{
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icons-container .icons{
+    background: #fff;
+    border: 1rem  solid rgba(0, 0, 0, .1);
+    padding: 2rem ;
+    display: flex;
+    align-items: center;
+    flex:1 1 20rem;
+}
+.icons-container .icons a {
+    height: 5rem;
+    margin-right: 2rem;
+}
+.icons-container .icon h3{
+    color: #333;
+    padding-bottom: .5rem;
+    font-size:1.5rem ;
+}
+.icons-container .icon span{
+    color: #555;
+    font-size:1.3rem ;
+}
+.icons-container .icons a .icon{
+    color: #999;
+    font-size: 40px;
+}
 header{
     position: fixed;
     top: 0;  
@@ -223,6 +255,14 @@ header .bar{
     }
     .home .content h3{
         font-size: 5rem;
+    }
+    .icons-container .icon h3{
+       
+        font-size:2rem ;
+    }
+    .icons-container .icon span{
+    
+        font-size:1.8rem ;
     }
     
 }
