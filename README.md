@@ -3,10 +3,10 @@ Hi! I am Hülya. I am a student of computer programming who is trying to improve
 
 ## [home](../main/page/home.jpg) 
 ------------------------------
-## [home](../main/page/about.jpg) 
+## [about](../main/page/about.jpg) 
 ------------------------------
-## [home](../main/page/products.jpg) 
+## [products](../main/page/products.jpg) 
 ------------------------------
-## [home](../main/page/customer.jpg) 
+## [customer](../main/page/customer.jpg) 
 ------------------------------
-## [home](../main/page/contact.jpg) 
+## [contact](../main/page/contact.jpg) 
